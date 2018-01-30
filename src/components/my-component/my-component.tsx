@@ -5,8 +5,7 @@ import { Component, Prop } from '@stencil/core';
   styleUrl: 'my-component.scss',
   shadow: true
 })
-export class MyComponent {
-
+export class MyComponent extends Object {
   @Prop() first: string;
   @Prop() last: string;
 
